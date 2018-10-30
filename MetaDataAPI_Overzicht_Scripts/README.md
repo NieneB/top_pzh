@@ -11,13 +11,13 @@ De output is een csv bestand met een record per metadata record.
 ## data.overheid.nl 
 
 Overzicht records van alle provincies van Nederland:
-[/data.overheid.nl_samenvatting.js](/data.overheid.nl_samenvatting.js)
+[/data.overheid.nl_samenvatting.js](https://github.com/NieneB/top_pzh/blob/master/MetaDataAPI_Overzicht_Scripts/data.overheid.nl_samenvatting.js)
 
 Gebruikt de API van CKAN voor het opvragen van dataset informatie in JSON.
 
 ## dataplatform.nl
 
-[/dataplatfrom.nl.js](/dataplatfrom.nl.js)
+[/dataplatfrom.nl.js](https://github.com/NieneB/top_pzh/blob/master/MetaDataAPI_Overzicht_Scripts/dataplatfrom.nl.js)
 
 De Dataplatform API maakt gebruik van de standaard van CKAN. Lees de volledige CKAN API documentatie voor nadere details. Hieronder staan enkele voorbeelden die afkomstig zijn uit de brondocumentatie.
 
@@ -34,12 +34,12 @@ Zoek naar bestanden met het woord "strooiroute": https://ckan.dataplatform.nl/ap
 
 ## nationaalgeoregister.nl
 
-[/nationaal_geo_register.js](/nationaal_geo_register.js)
+[/nationaal_geo_register.js](https://github.com/NieneB/top_pzh/blob/master/MetaDataAPI_Overzicht_Scripts/nationaal_geo_register.js)
 
 Het Nationaal Georegister is gebouwd op basis van GeoNetwork software. Raadpleeg de API documentatie van GeoNetwork 3.0 op de GeoNetwork API pagina.
 
 ## Esri geoservices Provincie Zuid-Holland
 
-[/arcgis_services.js](/arcgis_services.js)
+[/arcgis_services.js](https://github.com/NieneB/top_pzh/blob/master/MetaDataAPI_Overzicht_Scripts/arcgis_services.js)
 
 ArcGIS rest server. 
