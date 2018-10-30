@@ -8,7 +8,7 @@ require([
 ) {
         // INIT MAP
         var map = new Map({
-            basemap: "streets"
+            basemap: "dark-gray"
         });
 
         // CREATE the 2D Mapview
@@ -16,7 +16,8 @@ require([
             container: "map",  // Reference to the DOM node that will contain the view
             map: map               // References the map object created in step 3
         });
-
+    view.center = [4.306, 52.07]  // Sets the center point of the view at a specified lon/lat
+        view.zoom = 10; 
         // WMS Layers
         var cultuurPZH = new WMSLayer({
             title: "Cultuurhistorie Beeldbepalend Erfgoed",
@@ -577,7 +578,7 @@ require([
             ]
         });
 
-        map.layers.add(landschapPZH);
+        // map.layers.add(landschapPZH);
 
         // LAYER LIST WIDGET
         var layerlist = new LayerList({
