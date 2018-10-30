@@ -1,4 +1,12 @@
-# API request voor metadat overzicht
+# API request voor metadat overzichts
+
+Draai de scripts met Node. Bijvoorbeeld:
+
+    node data.overheid.nl_samenvatting.js [provincie] all
+    node arcgis_services.js  [provincie]
+    node dataplatform.nl.js provincie-zuid-holland
+
+De output is een csv bestand met een record per metadata record. 
 
 ## data.overheid.nl 
 
